@@ -87,6 +87,15 @@ strong {
   margin: 2px 0;
 }
 
+.compact-list {
+  margin: -8px 0 12px 18px;
+  padding: 0;
+}
+
+.compact-list li {
+  margin: 2px 0;
+}
+
 .bio-photo {
   display: block;
   width: 100%;
