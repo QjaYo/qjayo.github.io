@@ -120,6 +120,19 @@ strong {
   font-weight: 600;
 }
 
+.coursework-list {
+  margin: 4px 0 12px;
+  padding-inline-start: 18px;
+}
+
+.coursework-list > li + li {
+  margin-top: 6px;
+}
+
+.coursework-entries {
+  padding-inline-start: 0.75em;
+}
+
 .category-table td {
   padding: 10px 2.5% 2px;
   color: #555555;
