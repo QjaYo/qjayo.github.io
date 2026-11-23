@@ -74,6 +74,10 @@ strong {
   text-align: left;
 }
 
+.link-row + .link-row {
+  margin-top: 6px;
+}
+
 .interest-list {
   margin: 0 0 12px;
 }

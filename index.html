@@ -36,14 +36,14 @@
                       <ul>
                         <li>Physics-Based simulation/animation</li>
                         <li>Gaussian Splatting</li>
-                        <li>Digital humans &amp; creatures</li>
                         <li>Digital Twin</li>
                       </ul>
                     </div>
                     <p class="link-row">
+                      <a href="https://app.notion.com/p/Blog-23d99313de43800681e3fde6c8592ac0" target="_blank" rel="noreferrer">Blog</a>
+                    </p>
+                    <p class="link-row">
                       <a href="https://github.com/QjaYo" target="_blank" rel="noreferrer">GitHub</a>
-                      &nbsp;/&nbsp;
-                      <a href="https://app.notion.com/p/Blog-23d99313de43800681e3fde6c8592ac0" target="_blank" rel="noreferrer">Study Notes</a>
                       &nbsp;/&nbsp;
                       <a href="mailto:dlrbals719@sju.ac.kr">Email</a>
                       &nbsp;/&nbsp;
@@ -434,7 +434,7 @@
             <table class="category-table">
               <tbody>
                 <tr>
-                  <td>Gaussian Splatting</td>
+                  <td>Kinematics &amp; Motion</td>
                 </tr>
               </tbody>
             </table>
@@ -444,34 +444,33 @@
                 <tr>
                   <td class="thumb-cell">
                     <a
-                      class="thumb gs"
-                      href="https://github.com/QjaYo/gut_pipelines"
+                      class="thumb robot"
+                      href="https://github.com/QjaYo/synergy-ik"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="GUT pipelines repository"
+                      aria-label="Synergy-IK repository"
                     >
                       <img
-                        src="./assets/3dgut-thumbnail.png"
+                        class="contain-thumb"
+                        src="https://github.com/user-attachments/assets/261ca837-f33c-44bb-ab37-02ddf65bad6a"
                         alt=""
                         onerror="this.remove()"
                       />
                     </a>
                   </td>
                   <td class="paper-cell">
-                    <a class="papertitle" href="https://github.com/QjaYo/gut_pipelines" target="_blank" rel="noreferrer">
-                      3DGUT-Based 360 Gaussian Splatting with Depth and Normal Supervision
+                    <a class="papertitle" href="https://github.com/QjaYo/synergy-ik" target="_blank" rel="noreferrer">
+                      Synergy-IK
                     </a>
-                    <span class="meta">(May 2026)</span>
+                    <span class="meta">(-ing)</span>
                     <br />
-                    Customized gsplat-based preprocessing pipeline and 3DGUT
-                    trainer for raw distorted 360 camera captures, using
-                    COLMAP, hloc, and UniK3D with depth and normal priors.
+                    Learns state-dependent joint costs from motion data to
+                    favor human-like joint coordination while tracking
+                    end-effector targets with inverse kinematics.
                     <br />
-                    <span class="meta">Python</span>
+                    <span class="meta">Python / PyTorch</span>
                     <br />
-                    <a href="https://github.com/QjaYo/gut_pipelines" target="_blank" rel="noreferrer">pipeline</a>
-                    /
-                    <a href="https://github.com/QjaYo/gsplat_gut" target="_blank" rel="noreferrer">trainer</a>
+                    <a href="https://github.com/QjaYo/synergy-ik" target="_blank" rel="noreferrer">code</a>
                   </td>
                 </tr>
               </tbody>
@@ -482,15 +481,14 @@
                 <tr>
                   <td class="thumb-cell">
                     <a
-                      class="thumb gs"
-                      href="https://superspl.at/user?id=qjayo"
+                      class="thumb robot"
+                      href="https://github.com/QjaYo/RobotArm"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="3D Gaussian Splatting assets"
+                      aria-label="Robot Arm repository"
                     >
                       <video
-                        class="contain-thumb"
-                        src="./assets/3dgs-assets.mov"
+                        src="https://github.com/user-attachments/assets/5dfa4bca-473f-45f6-ab72-1826351eac98"
                         autoplay
                         loop
                         muted
@@ -499,59 +497,17 @@
                     </a>
                   </td>
                   <td class="paper-cell">
-                    <a class="papertitle" href="https://superspl.at/user?id=qjayo" target="_blank" rel="noreferrer">
-                      3D Gaussian Splatting Assets
+                    <a class="papertitle" href="https://github.com/QjaYo/RobotArm" target="_blank" rel="noreferrer">
+                      Robot Arm Inverse Kinematics
                     </a>
+                    <span class="meta">(Oct. 2025)</span>
                     <br />
-                    Collection of reconstructed 3D Gaussian Splatting assets
-                    viewable in SuperSplat.
+                    Robot arm inverse kinematics solver using iterative
+                    gradient descent.
                     <br />
-                    <span class="meta">3DGS</span>
+                    <span class="meta">C++ / OpenGL</span>
                     <br />
-                    <a href="https://superspl.at/user?id=qjayo" target="_blank" rel="noreferrer">assets</a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <table class="category-table">
-              <tbody>
-                <tr>
-                  <td>Reinforce Learning</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <table class="paper compact">
-              <tbody>
-                <tr>
-                  <td class="thumb-cell">
-                    <a
-                      class="thumb"
-                      href="https://github.com/QjaYo/cartpole"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="CartPole repository"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/QjaYo/cartpole/main/value-based/screenshots/10000epi.gif"
-                        alt=""
-                        onerror="this.remove()"
-                      />
-                    </a>
-                  </td>
-                  <td class="paper-cell">
-                    <a class="papertitle" href="https://github.com/QjaYo/cartpole" target="_blank" rel="noreferrer">
-                      CartPole
-                    </a>
-                    <span class="meta">(Jul. 2026)</span>
-                    <br />
-                    Value-based and policy-based reinforcement learning agents
-                    trained on the CartPole environment.
-                    <br />
-                    <span class="meta">Python</span>
-                    <br />
-                    <a href="https://github.com/QjaYo/cartpole" target="_blank" rel="noreferrer">code</a>
+                    <a href="https://github.com/QjaYo/RobotArm" target="_blank" rel="noreferrer">code</a>
                   </td>
                 </tr>
               </tbody>
@@ -641,7 +597,7 @@
             <table class="category-table">
               <tbody>
                 <tr>
-                  <td>Kinematics &amp; Motion</td>
+                  <td>Gaussian Splatting</td>
                 </tr>
               </tbody>
             </table>
@@ -651,14 +607,53 @@
                 <tr>
                   <td class="thumb-cell">
                     <a
-                      class="thumb robot"
-                      href="https://github.com/QjaYo/RobotArm"
+                      class="thumb gs"
+                      href="https://github.com/QjaYo/gut_pipelines"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="Robot Arm repository"
+                      aria-label="GUT pipelines repository"
+                    >
+                      <img
+                        src="./assets/3dgut-thumbnail.png"
+                        alt=""
+                        onerror="this.remove()"
+                      />
+                    </a>
+                  </td>
+                  <td class="paper-cell">
+                    <a class="papertitle" href="https://github.com/QjaYo/gut_pipelines" target="_blank" rel="noreferrer">
+                      3DGUT-Based 360 Gaussian Splatting with Depth and Normal Supervision
+                    </a>
+                    <span class="meta">(May 2026)</span>
+                    <br />
+                    Customized gsplat-based preprocessing pipeline and 3DGUT
+                    trainer for raw distorted 360 camera captures, using
+                    COLMAP, hloc, and UniK3D with depth and normal priors.
+                    <br />
+                    <span class="meta">Python</span>
+                    <br />
+                    <a href="https://github.com/QjaYo/gut_pipelines" target="_blank" rel="noreferrer">pipeline</a>
+                    /
+                    <a href="https://github.com/QjaYo/gsplat_gut" target="_blank" rel="noreferrer">trainer</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="paper compact">
+              <tbody>
+                <tr>
+                  <td class="thumb-cell">
+                    <a
+                      class="thumb gs"
+                      href="https://superspl.at/user?id=qjayo"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="3D Gaussian Splatting assets"
                     >
                       <video
-                        src="https://github.com/user-attachments/assets/5dfa4bca-473f-45f6-ab72-1826351eac98"
+                        class="contain-thumb"
+                        src="./assets/3dgs-assets.mov"
                         autoplay
                         loop
                         muted
@@ -667,17 +662,59 @@
                     </a>
                   </td>
                   <td class="paper-cell">
-                    <a class="papertitle" href="https://github.com/QjaYo/RobotArm" target="_blank" rel="noreferrer">
-                      Robot Arm Inverse Kinematics
+                    <a class="papertitle" href="https://superspl.at/user?id=qjayo" target="_blank" rel="noreferrer">
+                      3D Gaussian Splatting Assets
                     </a>
-                    <span class="meta">(Oct. 2025)</span>
                     <br />
-                    Robot arm inverse kinematics solver using iterative
-                    gradient descent.
+                    Collection of reconstructed 3D Gaussian Splatting assets
+                    viewable in SuperSplat.
                     <br />
-                    <span class="meta">C++ / OpenGL</span>
+                    <span class="meta">3DGS</span>
                     <br />
-                    <a href="https://github.com/QjaYo/RobotArm" target="_blank" rel="noreferrer">code</a>
+                    <a href="https://superspl.at/user?id=qjayo" target="_blank" rel="noreferrer">assets</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="category-table">
+              <tbody>
+                <tr>
+                  <td>Reinforcement Learning</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="paper compact">
+              <tbody>
+                <tr>
+                  <td class="thumb-cell">
+                    <a
+                      class="thumb"
+                      href="https://github.com/QjaYo/cartpole"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="CartPole repository"
+                    >
+                      <img
+                        src="https://raw.githubusercontent.com/QjaYo/cartpole/main/value-based/screenshots/10000epi.gif"
+                        alt=""
+                        onerror="this.remove()"
+                      />
+                    </a>
+                  </td>
+                  <td class="paper-cell">
+                    <a class="papertitle" href="https://github.com/QjaYo/cartpole" target="_blank" rel="noreferrer">
+                      CartPole
+                    </a>
+                    <span class="meta">(Jul. 2026)</span>
+                    <br />
+                    Value-based and policy-based reinforcement learning agents
+                    trained on the CartPole environment.
+                    <br />
+                    <span class="meta">Python</span>
+                    <br />
+                    <a href="https://github.com/QjaYo/cartpole" target="_blank" rel="noreferrer">code</a>
                   </td>
                 </tr>
               </tbody>
